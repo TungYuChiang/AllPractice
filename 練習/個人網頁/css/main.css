@@ -1,0 +1,91 @@
+html,body{
+  height: 100%;
+}
+
+.header{
+  display:flex;
+  padding: 6px 10px;
+  background-color: rgb(40, 42, 42);
+
+}
+.header .logo{
+  display: inline-block;
+  padding: 6px 0;
+}
+.header nav{
+  width: 100%;
+  text-align: right;
+  font-size:0;
+}
+.header nav a{
+  font-size: 16px;
+  line-height: 52px;
+  text-decoration:none;
+  color:white;
+  display: inline-block;
+  padding: 0 35px;
+}
+
+ .backpic img{
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+}
+.firstIn{
+  position: relative;
+
+}
+.name {
+  position: absolute;
+  color:white;
+  font-size: 40px;
+  top: 25%;
+  left: 15%;
+}
+.name_intro{
+  position: absolute;
+  color:white;
+  font-size: 20px;
+  top: 40%;
+  left: 15%;
+}
+.about{
+  padding: 25vh;
+}
+.about .wrap{
+  display: flex;
+}
+.about .wrap .img{
+  text-align:center;
+}
+.about .wrap img{
+  border-radius: 50%;
+}
+.about .item{
+  width: 50%;
+}
+.about .wrap .text h2{
+  margin:0 0 10px 0;
+  text-align: left;
+  font-size: 30px;
+}
+.skill{
+  padding: 100px 100px;
+
+}
+.skill .wrap{
+  display: flex;
+  justify-content: center;
+}
+.skill .item{
+  box-shadow: 0 0 15px #dadadae1;
+  text-align: center;
+  width: 300px;
+  padding: 30px;
+  margin: 0 10px;
+}
+.skill .item h3{
+  margin: 10px 0px;
+  font-size: 20px;
+}
